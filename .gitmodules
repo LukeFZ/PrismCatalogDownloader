@@ -1,0 +1,3 @@
+[submodule "LukeFZ.Shared"]
+	path = LukeFZ.Shared
+	url = https://github.com/LukeFZ/LukeFZ.Shared

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PrismCatalogDownloader": {
+      "commandName": "Project",
+      "commandLineArgs": "1.0.4 10000300@jqWxJ9wcJQVnmMwPYKbgEDA= assets"
+    }
+  }
+}

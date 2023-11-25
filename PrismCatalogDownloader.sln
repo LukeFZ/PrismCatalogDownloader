@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34227.203
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismCatalogDownloader", "PrismCatalogDownloader\PrismCatalogDownloader.csproj", "{F3C25834-E049-476F-A88C-739A6D948E21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LukeFZ.Shared", "LukeFZ.Shared\LukeFZ.Shared\LukeFZ.Shared.csproj", "{C6A24CDF-6A0D-4A01-9F9F-CC24A8771F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C25834-E049-476F-A88C-739A6D948E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C25834-E049-476F-A88C-739A6D948E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C25834-E049-476F-A88C-739A6D948E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C25834-E049-476F-A88C-739A6D948E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A24CDF-6A0D-4A01-9F9F-CC24A8771F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A24CDF-6A0D-4A01-9F9F-CC24A8771F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A24CDF-6A0D-4A01-9F9F-CC24A8771F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A24CDF-6A0D-4A01-9F9F-CC24A8771F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36DCCDCA-B3F8-4A17-A712-920EDB34F7E4}
+	EndGlobalSection
+EndGlobal
