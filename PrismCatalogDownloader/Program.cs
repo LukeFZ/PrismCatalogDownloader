@@ -149,6 +149,9 @@ internal class Program
                 continue;
 
             Console.WriteLine($"Downloading {name}...");
+            if (name.Contains('/'))
+                Directory.CreateDirectory(Path.Join(outputDirectory, Path.GetDirectoryName(name)));
+
             DownloadAsset(Path.Join(outputDirectory, name), info);
             //foreach (var contents in info.ContentAddressCrcs)
             //{
