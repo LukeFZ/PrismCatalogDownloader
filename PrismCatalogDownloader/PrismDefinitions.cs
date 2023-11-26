@@ -1,4 +1,6 @@
-﻿using MemoryPack;
+﻿using System.Text.Json.Serialization;
+using MemoryPack;
+using PrismCatalogDownloader;
 
 namespace PRISM.Definitions
 {
@@ -391,6 +393,8 @@ namespace PRISM.Definitions
         public Dictionary<int, MstCostume> Costumes { get; private set; }
         public Dictionary<int, MstCostumeResource> CostumeResources { get; private set; }
         public Dictionary<int, MstHairstyle> Hairstyles { get; private set; }
+
+        [JsonConverter(typeof(ValueTupleDictionaryConverter))]
         public Dictionary<ValueTuple<int, int>, MstHairstyleResource> HairstyleResources { get; private set; }
         public Dictionary<int, MstAccessory> Accessories { get; private set; }
         public Dictionary<int, MstAccessoryResource> AccessoryResources { get; private set; }
